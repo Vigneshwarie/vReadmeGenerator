@@ -5,18 +5,23 @@ inquirer
      .prompt([
           {
                name: "appName",
-               message:"Please share your application name ",
-               type:"input"
+               message: "Please share your application name ",
+               type: "input"
           },
           {
                name: "appRepositoryURL",
-               message:"Please share your application repository URL ",
-               type:"input"
+               message: "Please share your application repository URL ",
+               type: "input"
+          },
+          {
+               name: "appDeployedURL",
+               message: "In the case if application deployed, please the deployed URL ",
+               type: "input"
           },
           {
                name: "appDescription",
                message: "Please tell us about your application. ",
-               type:"input"
+               type: "input"
           },
           {
                name: "appInstallationInstruction",
@@ -30,13 +35,19 @@ inquirer
           },
           {
                name: "appContribution",
-               message: "Would you like others to contribute to your work? If yes, share the contribution guidelines. ",
+               message: "Please share the guidelines for others to contribute to the application. ",
                type: "input"
           },
           {
                name: "appTestInstructions",
                message: "Kindly share how to test the application. ",
                type: "input"
+          },
+          {
+               name: "appLicense",
+               message: "Please choose the license information. ",
+               type: "checkbox",
+               choices: ["Apache License 2.0", "GNU General Public License V3.0", "MIT Licenses", "Open Software License 3.0"]
           },
           {
                name: "appUserEmail",
@@ -57,17 +68,34 @@ ${answers.appInstallationInstruction}
 
 ## Usage
 
+The application deployed at ${answers.appDeployedURL}
+
 The application source code can be accessed using the link ${answers.appRepositoryURL}
 
 ${answers.appUsage}
 
-`;
+## Contribution Guidelines
 
-          fs.writeFile('Readme1.md', readmeString, (err) =>
+${answers.appContribution}
+
+## Application Test Instructions
+
+${answers.appTestInstructions}
+
+## License
+
+${answers.appName} is available under the ${answers.appLicense}.
+
+
+`;
+          
+          var vApplicationName = answers.appName.split(" ").join('');
+          vApplicationName = vApplicationName + "_README.md";
+          fs.writeFile(vApplicationName, readmeString, (err) =>
                err ? console.error(err) : console.log('Success!')
           );
           
-     })
+     });
 
 
      
