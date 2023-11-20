@@ -46,8 +46,11 @@ inquirer
           {
                name: "appLicense",
                message: "Please choose the license information. ",
-               type: "checkbox",
-               choices: ["Apache License 2.0", "GNU General Public License V3.0", "MIT Licenses", "Open Software License 3.0"]
+               type: "list",
+               choices: ["Apache License 2.0",
+                    "GNU General Public License V3.0",
+                    "MIT Licenses",
+                    "Mozilla Public License 2.0"]
           },
           {
                name: "appUserEmail",
@@ -56,7 +59,21 @@ inquirer
           }
      ])
      .then((answers) => {
-          const readmeString = `# ${answers.appName}
+          let licenseBadge;
+          if (answers.appLicense === "Apache License 2.0") {
+               licenseBadge = `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
+          }
+          else if (answers.appLicense === "GNU General Public License V3.0") {
+               licenseBadge = `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`;
+          }
+          else if (answers.appLicense === "MIT Licenses") {
+               licenseBadge = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
+          }
+          else {
+               licenseBadge = `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`;
+          }
+
+          const readmeString = `# ${answers.appName}      ${licenseBadge}
 
 ## Description
 
@@ -86,6 +103,9 @@ ${answers.appTestInstructions}
 
 ${answers.appName} is available under the ${answers.appLicense}.
 
+## Questions
+
+For additional questions please reach me at ${answers.appUserEmail}
 
 `;
           
