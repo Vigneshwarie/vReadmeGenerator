@@ -59,11 +59,10 @@ inquirer
           }
      ])
      .then((answers) => {
-          //var vApplicationName = answers.appName.split(" ").join('');
-          //vApplicationName = vApplicationName + "_README.md";
-          //console.log()
+          var vApplicationName = answers.appName.split(" ").join('');
+          vApplicationName = vApplicationName + "_README.md";
+
           let licenseBadge;
-          let vtblofcontent = "https://github.com/Vigneshwarie/vReadmeGenerator/blob/main/";
 
           if (answers.appLicense === "Apache License 2.0") {
                licenseBadge = `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
@@ -78,6 +77,8 @@ inquirer
                licenseBadge = `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`;
           }
 
+
+
           const readmeString = `# ${answers.appName}      ${licenseBadge}
 
 ## Description
@@ -86,15 +87,13 @@ ${answers.appDescription}
 
 ## Table of Contents
 
-
-
-* [Description](https://github.com/Vigneshwarie/vReadmeGenerator/blob/main/READMETEST.md#description)
-* [Installation](https://github.com/Vigneshwarie/vReadmeGenerator#installation)
+* [Description](#description)
+* [Installation](#installation)
 * [Usage](#usage)
 * [Contribution Guidelines](#contribution-guidelines)
 * [Testing Instructions](#testing-instructions)
 * [License](#license)
-* [Questions](https://github.com/Vigneshwarie/vReadmeGenerator/blob/main/READMETEST.md#questions)
+* [Questions](#questions)
 
 ## Installation
 
@@ -127,7 +126,7 @@ For additional questions please reach me at ${answers.appUserEmail}
 `;
           
           
-          fs.writeFile("READMETEST.md", readmeString, (err) =>
+          fs.writeFile(vApplicationName, readmeString, (err) =>
                err ? console.error(err) : console.log('Success!')
           );
           
