@@ -59,8 +59,9 @@ inquirer
           }
      ])
      .then((answers) => {
-          var vApplicationName = answers.appName.split(" ").join('');
-          vApplicationName = vApplicationName + "_README.md";
+          //var vApplicationName = answers.appName.split(" ").join('');
+          //vApplicationName = vApplicationName + "_README.md";
+          //console.log()
           let licenseBadge;
           let vtblofcontent = "https://github.com/Vigneshwarie/vReadmeGenerator/blob/main/";
 
@@ -83,15 +84,15 @@ inquirer
 
 ${answers.appDescription}
 
-### Table of Contents
+## Table of Contents
 
-     * [Description] (#description)
-     * Installation (#installation)
-     * [Usage] (#usage)
-     * [Contribution Guidelines] (#contribution-guidelines)
-     * [Testing Instructions] (#testing-instructions)
-     * [License] (#license)
-     * [Questions] (#questions)
+* [Description] (https://github.com/Vigneshwarie/vReadmeGenerator/blob/main/TaskManager_README.md#description)
+* Installation (#installation)
+* [Usage] (#usage)
+* [Contribution Guidelines] (#contribution-guidelines)
+* [Testing Instructions] (#testing-instructions)
+* [License] (#license)
+* [Questions] (https://github.com/Vigneshwarie/vReadmeGenerator/blob/main/TaskManager_README.md#questions)
 
 ## Installation
 
@@ -124,7 +125,7 @@ For additional questions please reach me at ${answers.appUserEmail}
 `;
           
           
-          fs.writeFile(vApplicationName, readmeString, (err) =>
+          fs.writeFile("READMETEST.md", readmeString, (err) =>
                err ? console.error(err) : console.log('Success!')
           );
           
