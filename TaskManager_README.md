@@ -20,7 +20,7 @@ N/A
 
 ## Usage
 
-The application deployed at https://vigneshwarie.github.io/G6-Task-Manager/
+The application deployed at  https://vigneshwarie.github.io/G6-Task-Manager/
 
 The application source code can be accessed using the link https://github.com/Vigneshwarie/G6-Task-Manager
 

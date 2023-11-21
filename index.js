@@ -62,6 +62,7 @@ inquirer
           var vApplicationName = answers.appName.split(" ").join('');
           vApplicationName = vApplicationName + "_README.md";
 
+          // Code for License Badge 
           let licenseBadge;
 
           if (answers.appLicense === "Apache License 2.0") {
@@ -78,7 +79,7 @@ inquirer
           }
 
 
-
+          // Code to create Readme file structure.
           const readmeString = `# ${answers.appName}      ${licenseBadge}
 
 ## Description
@@ -125,7 +126,7 @@ For additional questions please reach me at ${answers.appUserEmail}
 
 `;
           
-          
+          // Generating readme file.
           fs.writeFile(vApplicationName, readmeString, (err) =>
                err ? console.error(err) : console.log('Success!')
           );
