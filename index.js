@@ -86,11 +86,11 @@ ${answers.appDescription}
 ## Table of Contents
 
 * [Description] (#description)
-[Installation] (${vtblofcontent + vApplicationName + "#installation"})
-[Usage] (${vtblofcontent + vApplicationName + "#usage"})
-[Contribution Guidelines] (${vtblofcontent + vApplicationName + "#contribution-guidelines"})
-[Testing Instructions] (${vtblofcontent + vApplicationName + "#testing-instructions"})
-[License] (${vtblofcontent + vApplicationName + "#license"})
+* [Installation] (#installation)
+* [Usage] (#usage)
+* [Contribution Guidelines] (#contribution-guidelines)
+* [Testing Instructions] (#testing-instructions)
+* [License] (#license)
 * [Questions] (#questions)
 
 ## Installation
