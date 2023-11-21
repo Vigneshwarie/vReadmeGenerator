@@ -85,13 +85,13 @@ ${answers.appDescription}
 
 ## Table of Contents
 
-* [Description] (https://github.com/Vigneshwarie/vReadmeGenerator/blob/main/TaskManager_README.md#description)
+* [Description] (##description)
 * [Installation] (#installation)
 * [Usage] (#usage)
 * [Contribution Guidelines] (#contribution-guidelines)
 * [Testing Instructions] (#testing-instructions)
 * [License] (#license)
-* [Questions] (#questions)
+* [Questions] (##questions)
 
 ## Installation
 

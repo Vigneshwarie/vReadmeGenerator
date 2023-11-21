@@ -1,44 +1,44 @@
-# Task Manager      [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+# Task Manager      [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-ajdasjda
+ashdgsahsgd
 
 ## Table of Contents
 
-* [Description] (https://github.com/Vigneshwarie/vReadmeGenerator/blob/main/TaskManager_README.md#description)
+* [Description] (##description)
 * [Installation] (#installation)
 * [Usage] (#usage)
 * [Contribution Guidelines] (#contribution-guidelines)
 * [Testing Instructions] (#testing-instructions)
 * [License] (#license)
-* [Questions] (#questions)
+* [Questions] (##questions)
 
 ## Installation
 
-jdakda
+ajsdadhskaj
 
 ## Usage
 
-The application deployed at ajdskajdhsakj
+The application deployed at ahsdahd
 
-The application source code can be accessed using the link ahksdjsahdjk
+The application source code can be accessed using the link asdadkaj
 
-ahgsdajhdga
+dgsadgad
 
 ## Contribution Guidelines
 
-agdsadgaskd
+dbasdakj
 
 ## Testing Instructions
 
-agsdhagdksjahd
+hsadgagd
 
 ## License
 
-Task Manager is available under the GNU General Public License V3.0.
+Task Manager is available under the MIT Licenses.
 
 ## Questions
 
-For additional questions please reach me at vigneshwarie@gmail.com
+For additional questions please reach me at kjsdhsadk
 
