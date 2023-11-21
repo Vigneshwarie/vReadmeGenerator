@@ -1,12 +1,12 @@
-# Task Manager      [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+# Task Manager      [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Description
 
-dsahdajh ahdsajhd
+ajdasjda
 
 ## Table of Contents
 
-* [Description] (#description)
+* [Description] (https://github.com/Vigneshwarie/vReadmeGenerator/blob/main/TaskManager_README.md#description)
 * [Installation] (#installation)
 * [Usage] (#usage)
 * [Contribution Guidelines] (#contribution-guidelines)
@@ -16,27 +16,27 @@ dsahdajh ahdsajhd
 
 ## Installation
 
-hasjhdakhdk
+jdakda
 
 ## Usage
 
-The application deployed at jhdsajdhaj
+The application deployed at ajdskajdhsakj
 
-The application source code can be accessed using the link akjsdakjd
+The application source code can be accessed using the link ahksdjsahdjk
 
-ahsdjhajd
+ahgsdajhdga
 
 ## Contribution Guidelines
 
-kjdsadjalkd
+agdsadgaskd
 
 ## Testing Instructions
 
-jhdaskjhdjkasd
+agsdhagdksjahd
 
 ## License
 
-Task Manager is available under the Mozilla Public License 2.0.
+Task Manager is available under the GNU General Public License V3.0.
 
 ## Questions
 
