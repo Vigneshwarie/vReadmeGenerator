@@ -83,15 +83,15 @@ inquirer
 
 ${answers.appDescription}
 
-## Table of Contents
+### Table of Contents
 
-* Description (#description)
-* Installation (#installation)
-* [Usage] (#usage)
-* [Contribution Guidelines] (#contribution-guidelines)
-* [Testing Instructions] (#testing-instructions)
-* [License] (#license)
-* Questions (#questions)
+     * [Description] (#description)
+     * Installation (#installation)
+     * [Usage] (#usage)
+     * [Contribution Guidelines] (#contribution-guidelines)
+     * [Testing Instructions] (#testing-instructions)
+     * [License] (#license)
+     * [Questions] (#questions)
 
 ## Installation
 
