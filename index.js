@@ -59,7 +59,10 @@ inquirer
           }
      ])
      .then((answers) => {
+          var vApplicationName = answers.appName.split(" ").join('');
+          vApplicationName = vApplicationName + "_README.md";
           let licenseBadge;
+          let vtblofcontent = "https://github.com/Vigneshwarie/vReadmeGenerator/blob/main/";
           if (answers.appLicense === "Apache License 2.0") {
                licenseBadge = `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
           }
@@ -79,6 +82,16 @@ inquirer
 
 ${answers.appDescription}
 
+## Table of Contents
+
+[Description] [${vtblofcontent + vApplicationName + "#description"}]
+[Installation] [${vtblofcontent + vApplicationName + "#installation"}]
+[Usage] [${vtblofcontent + vApplicationName + "#usage"}]
+[Contribution Guidelines] [${vtblofcontent + vApplicationName + "#contribution-guidelines"}]
+[Testing Instructions] [${vtblofcontent + vApplicationName + "#testing-instructions"}]
+[License] [${vtblofcontent + vApplicationName + "#license"}]
+[Questions] [${vtblofcontent + vApplicationName + "#questions"}]
+
 ## Installation
 
 ${answers.appInstallationInstruction}
@@ -95,7 +108,7 @@ ${answers.appUsage}
 
 ${answers.appContribution}
 
-## Application Test Instructions
+## Testing Instructions
 
 ${answers.appTestInstructions}
 
@@ -109,8 +122,7 @@ For additional questions please reach me at ${answers.appUserEmail}
 
 `;
           
-          var vApplicationName = answers.appName.split(" ").join('');
-          vApplicationName = vApplicationName + "_README.md";
+          
           fs.writeFile(vApplicationName, readmeString, (err) =>
                err ? console.error(err) : console.log('Success!')
           );
