@@ -21,6 +21,10 @@ application-folder> node index.js
 
 On successful installation and execution, the application will prompt the user with questions concerning any application they want to generate a README file. On completion of user inputs, vReadmeGenerator will create an application-wise README file.
 
+## Walkthrough Video
+
+<video src="assets/VSambandam_Challenge9.mp4" controls title="Title"></video>
+
 ## Credits
 
 License Badges were generated using the attached link https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
