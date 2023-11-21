@@ -1,4 +1,4 @@
-# Task Manager      [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+# Task Manager      [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
@@ -6,13 +6,13 @@ The task manager application helps us to manage everyday tasks or activities. Th
 
 ## Table of Contents
 
-[Description] [https://github.com/Vigneshwarie/vReadmeGenerator/blob/main/TaskManager_README.md#description]
-[Installation] [https://github.com/Vigneshwarie/vReadmeGenerator/blob/main/TaskManager_README.md#installation]
-[Usage] [https://github.com/Vigneshwarie/vReadmeGenerator/blob/main/TaskManager_README.md#usage]
-[Contribution Guidelines] [https://github.com/Vigneshwarie/vReadmeGenerator/blob/main/TaskManager_README.md#contribution-guidelines]
-[Testing Instructions] [https://github.com/Vigneshwarie/vReadmeGenerator/blob/main/TaskManager_README.md#testing-instructions]
-[License] [https://github.com/Vigneshwarie/vReadmeGenerator/blob/main/TaskManager_README.md#license]
-[Questions] [https://github.com/Vigneshwarie/vReadmeGenerator/blob/main/TaskManager_README.md#questions]
+[Description] (https://github.com/Vigneshwarie/vReadmeGenerator/blob/main/TaskManager_README.md#description)
+[Installation] (https://github.com/Vigneshwarie/vReadmeGenerator/blob/main/TaskManager_README.md#installation)
+[Usage] (https://github.com/Vigneshwarie/vReadmeGenerator/blob/main/TaskManager_README.md#usage)
+[Contribution Guidelines] (https://github.com/Vigneshwarie/vReadmeGenerator/blob/main/TaskManager_README.md#contribution-guidelines)
+[Testing Instructions] (https://github.com/Vigneshwarie/vReadmeGenerator/blob/main/TaskManager_README.md#testing-instructions)
+[License] (https://github.com/Vigneshwarie/vReadmeGenerator/blob/main/TaskManager_README.md#license)
+[Questions] (https://github.com/Vigneshwarie/vReadmeGenerator/blob/main/TaskManager_README.md#questions)
 
 ## Installation
 
@@ -36,7 +36,7 @@ N/A
 
 ## License
 
-Task Manager is available under the Mozilla Public License 2.0.
+Task Manager is available under the MIT Licenses.
 
 ## Questions
 
