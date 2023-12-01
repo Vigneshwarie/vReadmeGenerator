@@ -23,7 +23,7 @@ On successful installation and execution, the application will prompt the user w
 
 ## Walkthrough Video
 
-<video src="assets/VSambandam_Challenge9.mp4" controls title="Title"></video>
+[![Watch the video](assets/ReadmeVideoSS.png)](assets/VSambandam_Challenge9.mp4)
 
 ## Credits
 
