@@ -25,6 +25,8 @@ On successful installation and execution, the application will prompt the user w
 
 [![Watch the video](assets/VSambandam_Challenge9.mp4)]
 
+[![Watch the video](assets/ReadmeVideoSS.png)](https://github.com/Vigneshwarie/vReadmeGenerator/blob/main/assets/VSambandam_Challenge9.mp4)
+
 ## Credits
 
 License Badges were generated using the attached link https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
