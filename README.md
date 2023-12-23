@@ -23,9 +23,7 @@ On successful installation and execution, the application will prompt the user w
 
 ## Walkthrough Video
 
-[![Watch the video](assets/VSambandam_Challenge9.mp4)]
-
-[![Watch the video](assets/ReadmeVideoSS.png)](https://github.com/Vigneshwarie/vReadmeGenerator/blob/main/assets/VSambandam_Challenge9.mp4)
+[![Watch the video](assets/ReadmeVideoSS.png)](https://drive.google.com/file/d/1LmjInQygpQ3OiGjlXIuoqQ1X2P0upehd/view?usp=share_link)
 
 ## Credits
 
